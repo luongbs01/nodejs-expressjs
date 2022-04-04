@@ -22,6 +22,13 @@
                         data-target="#delete-course-model">Xóa</a>
                 </td>
             </tr>
+            {{else}}
+            <tr>
+                <td colspan="5" class="text-center">
+                    Bạn chưa đăng khóa học nào
+                    <a href="/courses/create">Đăng khóa học</a>
+                </td>
+            </tr>
             {{/each}}
         </tbody>
     </table>
